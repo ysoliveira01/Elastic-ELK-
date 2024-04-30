@@ -1,14 +1,14 @@
 #!/bin/bash
 
 # Endereço do Elasticsearch de origem e destino
-ELASTICSEARCH_SOURCE="20.106.82.18:9200"
-ELASTICSEARCH_DEST="172.214.1.192:9200"
+ELASTICSEARCH_SOURCE="ip:porta"
+ELASTICSEARCH_DEST="ip:porta"
 
 # Credenciais do Elasticsearch de origem e destino
-SOURCE_USERNAME="cli"
-SOURCE_PASSWORD="@Timao1991"
-DEST_USERNAME="elastic"
-DEST_PASSWORD="1gK2TAD57vGtb80s1vQBT478"
+SOURCE_USERNAME="user"
+SOURCE_PASSWORD="passw"
+DEST_USERNAME="user"
+DEST_PASSWORD="passw"
 
 # Lista todos os índices
 echo "Listando todos os índices no Elasticsearch de origem..."
